@@ -23,7 +23,7 @@ function App() {
       <button onClick={() => setCount(count + 1)}>Add</button>
       <button onClick={() => setCount(count - 1)}>Remove</button>
       {!data.userId ? (
-        <div>Loading...</div>
+        <div>Loading data...</div>
       ) : (
         <div>
           <div>{data.title}</div>
